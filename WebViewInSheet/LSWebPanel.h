@@ -7,7 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
 
-@interface LSWebPanel : NSPanel
+@interface LSWebPanel : NSPanel {
+    WebView *_webView;
+}
+
+- (void)loadPage:(NSString *)URLString;
 
 @end
