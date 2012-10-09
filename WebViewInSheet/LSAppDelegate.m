@@ -15,4 +15,6 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)openWebPanel:(id)sender {
+}
 @end
