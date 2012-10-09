@@ -13,6 +13,7 @@
 		04D3DCEB1623C41E00FC6903 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 04D3DCE91623C41E00FC6903 /* Credits.rtf */; };
 		04D3DCEE1623C41E00FC6903 /* LSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3DCED1623C41E00FC6903 /* LSAppDelegate.m */; };
 		04D3DCF11623C41E00FC6903 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D3DCEF1623C41E00FC6903 /* MainMenu.xib */; };
+		04D3DCF91623C46900FC6903 /* LSWebPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3DCF81623C46900FC6903 /* LSWebPanel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		04D3DCEC1623C41E00FC6903 /* LSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAppDelegate.h; sourceTree = "<group>"; };
 		04D3DCED1623C41E00FC6903 /* LSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAppDelegate.m; sourceTree = "<group>"; };
 		04D3DCF01623C41E00FC6903 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		04D3DCF71623C46900FC6903 /* LSWebPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWebPanel.h; sourceTree = "<group>"; };
+		04D3DCF81623C46900FC6903 /* LSWebPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWebPanel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 			children = (
 				04D3DCEC1623C41E00FC6903 /* LSAppDelegate.h */,
 				04D3DCED1623C41E00FC6903 /* LSAppDelegate.m */,
+				04D3DCF71623C46900FC6903 /* LSWebPanel.h */,
+				04D3DCF81623C46900FC6903 /* LSWebPanel.m */,
 				04D3DCEF1623C41E00FC6903 /* MainMenu.xib */,
 				04D3DCE11623C41E00FC6903 /* Supporting Files */,
 			);
@@ -169,6 +174,7 @@
 			files = (
 				04D3DCE71623C41E00FC6903 /* main.m in Sources */,
 				04D3DCEE1623C41E00FC6903 /* LSAppDelegate.m in Sources */,
+				04D3DCF91623C46900FC6903 /* LSWebPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
