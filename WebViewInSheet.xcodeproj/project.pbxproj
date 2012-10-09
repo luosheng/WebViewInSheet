@@ -14,6 +14,7 @@
 		04D3DCEE1623C41E00FC6903 /* LSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3DCED1623C41E00FC6903 /* LSAppDelegate.m */; };
 		04D3DCF11623C41E00FC6903 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D3DCEF1623C41E00FC6903 /* MainMenu.xib */; };
 		04D3DCF91623C46900FC6903 /* LSWebPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3DCF81623C46900FC6903 /* LSWebPanel.m */; };
+		04D3DCFB1623C5C900FC6903 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D3DCFA1623C5C900FC6903 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		04D3DCF01623C41E00FC6903 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		04D3DCF71623C46900FC6903 /* LSWebPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWebPanel.h; sourceTree = "<group>"; };
 		04D3DCF81623C46900FC6903 /* LSWebPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWebPanel.m; sourceTree = "<group>"; };
+		04D3DCFA1623C5C900FC6903 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D3DCFB1623C5C900FC6903 /* WebKit.framework in Frameworks */,
 				04D3DCDB1623C41E00FC6903 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				04D3DCDA1623C41E00FC6903 /* Cocoa.framework */,
+				04D3DCFA1623C5C900FC6903 /* WebKit.framework */,
 				04D3DCDC1623C41E00FC6903 /* Other Frameworks */,
 			);
 			name = Frameworks;
